@@ -8,7 +8,7 @@ LOCAL_CFLAGS += -Wno-unused-variable
 LOCAL_CFLAGS += -Wno-sometimes-uninitialized
 LOCAL_CFLAGS += -Wno-format
 
-LOCAL_C_INCLUDES := system/bt/hci/include
+LOCAL_C_INCLUDES := packages/modules/Bluetooth/system/hci/include
 
 LOCAL_SRC_FILES:= \
               btconfig.c
